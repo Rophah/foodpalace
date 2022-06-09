@@ -1,0 +1,275 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #e8a392;
+  text-shadow: 3px;
+  text-decoration: none;
+}
+
+.underline {
+  width: 100px;
+  height: 7px;
+  margin: 0 auto 15px;
+  border-radius: 50px;
+  background-color: red;
+
+  /* background-color:  #e8a392; */
+
+  /* background: #df917d; */
+}
+
+.underlinewider {
+  width: 150px;
+  height: 7px;
+  margin: 0 auto 15px;
+  border-radius: 50px;
+  background-color: red;
+}
+
+.bgcolor {
+  color: black !important;
+}
+
+.red {
+  background-color: red;
+}
+
+.move {
+  margin-left: 15px !important;
+}
+
+#logo {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-left: 15px;
+}
+
+#stop {
+  color: red;
+}
+
+.primary {
+  background-color: red;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.secondary {
+  background-color: #ff006f;
+
+  /* background-color: #E8A392; */
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+.btnsecondary {
+  background-color: #ff006f;
+  color: #fff;
+}
+
+/* ================= Main page ============== */
+#foodsearch {
+  height: 90vh;
+  background-image: url(../images/friedrice.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90vh;
+}
+
+.maintext {
+  margin: 5% 10%;
+}
+
+.hungry {
+  color: red;
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.navlinkcol {
+  color: #fff;
+}
+
+.padall {
+  padding: 5% 12% 5% 12%;
+}
+
+.sidespace {
+  margin-left: 20px;
+}
+
+.menuimg {
+  width: 45px;
+  height: 35px;
+}
+
+/* ================ Our story =============== */
+.space {
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+
+/* =================== Food menu ============ */
+
+#menu {
+  background-color: #ebebeb;
+}
+
+/* .foodimg{
+	width:20%;
+} */
+.imgsmall {
+  width: 50%;
+  border-radius: 10px;
+  float: left;
+}
+
+.fooddescription {
+  width: 40%;
+  float: left;
+  margin-left: 8%;
+}
+
+.locationalign {
+  align: center;
+}
+
+/* ================= Form ================= */
+
+.sizing {
+  width: 500px;
+  margin: 10% auto;
+}
+
+/* ============ summary ================= */
+
+/* style="color: black, font-size:22px"
+style="color: #014d4e " */
+
+.primaryfooter {
+  background-color: red;
+  border: 2px solid red;
+}
+
+.primaryfooter:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+}
+
+.secondaryfooter {
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.secondaryfooter:hover {
+  background-color: #ff006f;
+  border: 2px solid #ff006f;
+  color: #fff;
+}
+
+.anchorborder:hover {
+  border: 2px solid #ff006f;
+  color: #ff006f;
+}
+
+/* ============ Register ============== */
+
+/* ============ footer ================ */
+
+#summary {
+  background-color: #ebebeb;
+}
+
+.footer-bac {
+  color: #fff;
+  background-color: black;
+}
+
+.footericons {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 1rem;
+}
+
+/* ============== button color ============= */
+.btn-color {
+  background-color: #ff006f;
+}
+
+/* ========= user dashboard ========== */
+.tall {
+  height: 100vh;
+}
+
+.colour {
+  background-color: #e8a392;
+}
+
+/* ==============insert category ========== */
+.restaurant {
+  height: 100vh;
+  background-image: url(images/restaurant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ================ view profile ============ */
+.ground {
+  background-image: #642b73;  /* fallback for old browsers */
+  background-image: -webkit-linear-gradient(to right, #c6426e, #642b73);  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(to right, #c6426e, #642b73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* ============== media query =============== */
+@media screen and (max-width: 768px) {
+  .hungry {
+    font-size: 35px;
+  }
+
+  .hungrytext {
+    font-size: 35px;
+  }
+
+  .primary {
+    font-size: 20px;
+  }
+
+  .maintext {
+    margin: 15% 15%;
+  }
+
+  .primary {
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .btnsecondary {
+    margin-bottom: 20px;
+  }
+
+  .footertext {
+    text-align: center;
+  }
+
+  .smallscreen {
+    margin-top: 30%;
+  }
+}
